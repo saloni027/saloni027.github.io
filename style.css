@@ -1,0 +1,63 @@
+.header{
+
+    margin-top:24px !important;
+
+}
+
+.starting{
+
+    margin-top:30px;
+
+}
+
+i {
+
+    max-width:100%;
+    color:rgba(0,0,0,.87);
+    min-height:0!important;
+    -webkit-box-flex:0;
+    flex-grow: 0;
+
+    position: static;
+    background: 0 0;
+    width: auto;
+    margin: 0;
+    padding: .75em 1em;
+    top: 0;
+    left: 0;
+    color: rgba(0,0,0,.87);
+    box-shadow: none;
+    -webkit-transition: color .1s ;
+    transition: color .1s ;
+
+
+
+}
+
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+p{
+
+
+font-family: 'Poiret One', cursive;
+font-size:160%;
+
+}
+
+
+.bio{
+
+
+margin-top:20px!important;
+
+}
+

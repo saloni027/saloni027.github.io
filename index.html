@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Saloni Sinha | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="ui container starting" style="width:60%;">
+        <div class="ui top attached tabular menu">
+            <a class="active item" data-tab="home">About Me </a>
+            <a class="item" data-tab="projects"> Projects </a>
+            <a class="item" data-tab="contacts">  Find me at </a>
+        </div>
+        <div class="main ui container">
+            <div class="ui bottom attached active tab segment" data-tab="home">
+                <h1> Saloni Sinha </h1>
+                <hr>
+                <div class="ui grid">
+                     <div class="row">
+                        <div class="six wide column">
+                            <div class="ui  fluid image">
+                                <img src="images/saloni.jpg" style="width:80%;" alt="">
+                            </div>
+                        </div>
+                        <div class="ten wide column center aligned bio">
+                            <p> Hi, I am Saloni Sinha</p>
+                            <p> Currently I am a Software Developer in Fujitsu Pune </p>
+                            <p> I  enjoy writing applications in Python/Flask </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ui bottom attached tab segment " data-tab="projects">
+                <p> My Projects </p>
+                <hr>
+                <div class="ui card">
+                    <div class="content">
+                        <div class="header">To Do App</div>
+                    </div>
+                     <div class="content">
+                         <h4 class="ui sub header">Description</h4>
+                            <div class="ui small feed">
+                                <span class="description">A Simple TO DO App made from Flask.</span>
+                                <p> <a href="https://flask-mytodo.herokuapp.com/"> Have a look </a></p>
+                            </div>
+                    </div>
+                    <div class="extra content">
+                        <div class="ui mini labels">
+                            <div class="ui basic label">Flask</div>
+                            <div class="ui basic label">SQlAlchemy</div>
+                        </div>
+                     </div>
+                </div>
+            </div>
+            <div class="ui bottom attached  tab segment " data-tab="contacts">
+                <p> My Contacts </p>
+                <hr>
+                <div class="center aligned socialIcons">
+                    <a href="https://github.com/saloni027"> <i class="big github icon "> </i></a>
+                    <a href="https://www.linkedin.com/feed/"> <i class="big linkedin icon  "> </i></a>
+                    <a href="https://stackoverflow.com/users/8957575/saloni-sinha"> <i class="big stack overflow icon "> </i></a>
+                    <a href="mailto:salonisinha068@gmail.com"> <i class="big mail square icon fitted"> </i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
